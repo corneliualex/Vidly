@@ -199,9 +199,34 @@
     <Compile Include="Migrations\201805181200043_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201805181200043_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805230900489_Update_MembershipTypeModel.cs" />
+    <Compile Include="Migrations\201805230900489_Update_MembershipTypeModel.Designer.cs">
+      <DependentUpon>201805230900489_Update_MembershipTypeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805230901093_Seed_MembershipTypeModel.cs" />
+    <Compile Include="Migrations\201805230901093_Seed_MembershipTypeModel.Designer.cs">
+      <DependentUpon>201805230901093_Seed_MembershipTypeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805230907101_Update_CustomerModel.cs" />
+    <Compile Include="Migrations\201805230907101_Update_CustomerModel.Designer.cs">
+      <DependentUpon>201805230907101_Update_CustomerModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805230915497_AddedGenreModel_UpdatedMovieModel.cs" />
+    <Compile Include="Migrations\201805230915497_AddedGenreModel_UpdatedMovieModel.Designer.cs">
+      <DependentUpon>201805230915497_AddedGenreModel_UpdatedMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805230918048_Seed_GenreModel.cs" />
+    <Compile Include="Migrations\201805230918048_Seed_GenreModel.Designer.cs">
+      <DependentUpon>201805230918048_Seed_GenreModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805230926195_UpdatedMovieModel.cs" />
+    <Compile Include="Migrations\201805230926195_UpdatedMovieModel.Designer.cs">
+      <DependentUpon>201805230926195_UpdatedMovieModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -271,6 +296,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -301,6 +327,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805181200043_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201805181200043_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805230900489_Update_MembershipTypeModel.resx">
+      <DependentUpon>201805230900489_Update_MembershipTypeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805230901093_Seed_MembershipTypeModel.resx">
+      <DependentUpon>201805230901093_Seed_MembershipTypeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805230907101_Update_CustomerModel.resx">
+      <DependentUpon>201805230907101_Update_CustomerModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805230915497_AddedGenreModel_UpdatedMovieModel.resx">
+      <DependentUpon>201805230915497_AddedGenreModel_UpdatedMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805230918048_Seed_GenreModel.resx">
+      <DependentUpon>201805230918048_Seed_GenreModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805230926195_UpdatedMovieModel.resx">
+      <DependentUpon>201805230926195_UpdatedMovieModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

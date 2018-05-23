@@ -143,3 +143,9 @@ C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resource
 C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedMembershipTypes.resources
 C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.RenameFieldMembershipTypes.resources
 C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.Update_MembershipTypeModel.resources
+C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.Seed_MembershipTypeModel.resources
+C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.Update_CustomerModel.resources
+C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedGenreModel_UpdatedMovieModel.resources
+C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.Seed_GenreModel.resources
+C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatedMovieModel.resources
