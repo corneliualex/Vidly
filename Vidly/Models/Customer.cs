@@ -10,13 +10,15 @@ namespace Vidly.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        //data annotations are both used for server side and client side validation
+        [Required(ErrorMessage = "Please enter customer's name")]
         [StringLength(255)]
         public string Name { get; set; }
 
         public bool IsSubscribedToNewsLetter { get; set; }
 
         [Display(Name="Date of Birth")]
+        [Min18YearsIfMember]
         public DateTime? Bitrhdate { get; set; }
 
         //FK + nav property

@@ -7,20 +7,26 @@
 
 @using (Html.BeginForm("Save", "Customers", FormMethod.Post))
 {
+    @Html.ValidationSummary(true, "Please fix the following errors")
+
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.Name)
         @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(m => m.Customer.Bitrhdate)
-        @Html.TextBoxFor(m => m.Customer.Bitrhdate,"{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.Name)
     </div>
 
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.MembershipTypeId)
         @Html.DropDownListFor(m => m.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "MembershipTypes", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
     </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Customer.Bitrhdate)
+        @Html.TextBoxFor(m => m.Customer.Bitrhdate, "{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.Bitrhdate)
+    </div>
+
 
     <div class="checkbox">
         <label>
@@ -29,6 +35,11 @@
     </div>
 
     @Html.HiddenFor(m => m.Customer.Id)
+    @Html.AntiForgeryToken()
     <input type="submit" class="btn btn-primary" value="Submit" />
 }
 
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
