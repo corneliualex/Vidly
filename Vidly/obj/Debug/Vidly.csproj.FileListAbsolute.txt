@@ -149,3 +149,11 @@ C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.Update_CustomerModel.resou
 C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedGenreModel_UpdatedMovieModel.resources
 C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.Seed_GenreModel.resources
 C:\Corny\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatedMovieModel.resources
+C:\Corny\Vidly\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Corny\Vidly\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Corny\Vidly\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Corny\Vidly\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Corny\Vidly\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Corny\Vidly\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Corny\Vidly\Vidly\Vidly\bin\AutoMapper.dll
+C:\Corny\Vidly\Vidly\Vidly\bin\AutoMapper.xml
